@@ -25,6 +25,7 @@ export default function BlogPostCard({
       )}
       href={href}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-900 rounded-lg p-4">
         <div className="flex flex-col md:flex-row justify-between">

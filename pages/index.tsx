@@ -73,6 +73,7 @@ const Home: NextPage = () => {
           className="cursor-pointer flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
           href="https://medium.com/@manis.kasyap"
           target={'_blank'}
+          rel="noopener noreferrer"
         >
           See all posts
           <svg

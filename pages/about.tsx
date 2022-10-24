@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/future/image';
 
-import Container from 'components/container';
+import Container from 'components/Container';
 import avatar from 'public/avatar.jpeg';
 
 export default function About() {

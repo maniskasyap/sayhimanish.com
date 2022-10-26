@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Image from 'next/future/image';
+import Image from 'next/image';
 
-import Container from 'components/Container';
+import Container from '../components/Container';
 import avatar from 'public/avatar.jpeg';
 
 export default function About() {
@@ -36,18 +36,6 @@ export default function About() {
           <h2>Bio</h2>
           <h3>Job Title</h3>
           <p>Manish Kumar, Software Engineering Manager at Next50</p>
-          <h2>Headshots</h2>
-          <div className="flex space-x-8">
-            <a href="/avatar.jpeg">
-              <Image
-                alt="Manish Kumar headshot"
-                width={400}
-                quality={100}
-                src={avatar}
-                className="rounded-md"
-              />
-            </a>
-          </div>
         </div>
       </div>
     </Container>
